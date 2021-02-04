@@ -2,6 +2,8 @@ import Vue from 'vue'
 
 import Autocomplete from 'buefy/src/components/autocomplete/Autocomplete'
 import Button from 'buefy/src/components/button/Button'
+import Carousel from 'buefy/src/components/carousel/Carousel'
+import CarouselItem from 'buefy/src/components/carousel/CarouselItem'
 import Checkbox from 'buefy/src/components/checkbox/Checkbox'
 import CheckboxButton from 'buefy/src/components/checkbox/CheckboxButton'
 import Clockpicker from 'buefy/src/components/clockpicker/Clockpicker'
@@ -17,6 +19,7 @@ import DropdownItem from 'buefy/src/components/dropdown/DropdownItem'
 import Field from 'buefy/src/components/field/Field'
 import FieldBody from 'buefy/src/components/field/FieldBody'
 import Icon from 'buefy/src/components/icon/Icon'
+import Image from 'buefy/src/components/image/Image'
 import Input from 'buefy/src/components/input/Input'
 import Loading from 'buefy/src/components/loading/Loading'
 import Menu from 'buefy/src/components/menu/Menu'
@@ -35,6 +38,8 @@ import Progress from 'buefy/src/components/progress/Progress'
 import Radio from 'buefy/src/components/radio/Radio'
 import RadioButton from 'buefy/src/components/radio/RadioButton'
 import Select from 'buefy/src/components/select/Select'
+import Skeleton from 'buefy/src/components/skeleton/Skeleton'
+import Sidebar from 'buefy/src/components/sidebar/Sidebar'
 import Slider from 'buefy/src/components/slider/Slider'
 import SliderThumb from 'buefy/src/components/slider/SliderThumb'
 import SliderTick from 'buefy/src/components/slider/SliderTick'
@@ -57,6 +62,8 @@ import Upload from 'buefy/src/components/upload/Upload'
 
 Vue.component('b-autocomplete', Autocomplete)
 Vue.component('b-button', Button)
+Vue.component('b-carousel', Carousel)
+Vue.component('b-carousel', CarouselItem)
 Vue.component('b-checkbox', Checkbox)
 Vue.component('b-checkbox-button', CheckboxButton)
 Vue.component('b-clockpicker', Clockpicker)
@@ -73,6 +80,7 @@ Vue.component('b-field', Field)
 Vue.component('b-field-body', FieldBody)
 Vue.component('b-icon', Icon)
 Vue.component('b-input', Input)
+Vue.component('b-image', Image)
 Vue.component('b-loading', Loading)
 Vue.component('b-menu', Menu)
 Vue.component('b-menu-item', MenuItem)
@@ -90,6 +98,8 @@ Vue.component('b-progress', Progress)
 Vue.component('b-radio', Radio)
 Vue.component('b-radio-button', RadioButton)
 Vue.component('b-select', Select)
+Vue.component('b-sidebar', Sidebar)
+Vue.component('b-skeleton', Skeleton)
 Vue.component('b-slider', Slider)
 Vue.component('b-slider-thumb', SliderThumb)
 Vue.component('b-slider-tick', SliderTick)
